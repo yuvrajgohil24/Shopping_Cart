@@ -12,7 +12,7 @@ return (
   <div >
     <nav className="navbar navbar-expand-lg " style={{backgroundColor:'lightgray'}}>
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/" onClick={() => handleShow(false)} style={{color:'coral' }} ><img src='../../public/vite.svg' alt='Shoppy' width={45} style={{borderRadius:'50%'}} /></Link>
+        <Link className="navbar-brand" to="/" onClick={() => handleShow(false)} style={{color:'coral' }} ><img src='/vite.svg' alt='Shoppy' width={45} style={{borderRadius:'50%'}} /></Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
